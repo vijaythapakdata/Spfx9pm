@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-practice-client-side-solution",
+    "id": "120eba82-1092-4ccb-b1a4-9008e7a580b2",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Vijay Thapak",
+      "websiteUrl": "https://www.google.com",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    
+    "metadata": {
+      "shortDescription": {
+        "default": "SpfxPractice description"
+      },
+      "longDescription": {
+        "default": "SpfxPractice description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-practice Feature",
+        "description": "The feature that activates elements of the spfx-practice solution.",
+        "id": "c9d4810c-c2d3-43cb-aac6-04a89550aefb",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-practice.sppkg"
+  }
+}
